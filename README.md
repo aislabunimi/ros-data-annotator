@@ -4,12 +4,6 @@
 - [Installation](#installation)
 - [Server startup](#server-startup)
 - [Usage](#usage)
-    - [Extract from bag file](#extract-from-bag-file)
-    - [Create a class](#create-a-class)
-    - [Draw a bounding box](#draw-a-bounding-box)
-    - [Dataset Navigation](#dataset-navigation)
-    - [Export](#export)
-- [Errors and Bugs](#errors-and-bugs)
 
 ## Requirements
 
