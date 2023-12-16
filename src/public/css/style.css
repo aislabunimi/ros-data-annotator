@@ -1,0 +1,381 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+/* INDEX PAGE */
+#pageIndex { 
+    height: 100vh;
+    font-size: 16px;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+#db {
+    text-align: center;
+}
+
+#upload {
+    width: 50%;
+}
+
+.row {
+    text-align: center;
+    width: 70%;
+}
+
+#input_bag, #db {
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    display: none;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* LABEL PAGE */
+
+#container {
+    position:fixed;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    z-index: 0;
+    top : 25%;
+    left : 25%;
+}
+
+.col_image {
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 85%;
+    left: 32%;
+    width: 40%;
+}
+
+.ui-dialog .ui-dialog-title {
+  text-align: center;
+}
+
+.ui-dialog .ui-dialog-buttonpane { 
+    text-align: center;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { 
+    float: none;
+}
+
+#class_dialog {
+    text-align: center;
+}
+
+#class_color {
+    max-width: 30%; 
+    width: 30%;
+}
+
+.fps {
+    display: inline-block;
+    width: 20%;
+}
+
+#image_fps {
+    text-align: center;
+    border-radius: 4px;
+}
+
+.fps_text {
+    position: relative;
+    max-width: 80px;
+    background: #ffffff;
+    top: 10px;
+    left: 20px;
+    z-index: 4;
+    color: black;
+}
+
+input[type="number"][disabled] {
+    background-color: white;
+ }
+
+.sequence {
+    display: inline-flex;
+    left: 45%;
+}
+
+#warning {
+    padding-top: 2%;
+    margin: 0;
+    color: red;
+}
+
+#sidebar-right {
+    width:20%;
+    right:0;
+    background: #2a2a2a;
+    color: #fff;
+}
+
+#sidebar-left {
+    width: 20%;
+    background: #2a2a2a;
+    color: #fff;
+}
+
+#topics {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#keep_bounding, #sub_classes {
+    float: none;
+}
+
+#sub_classes {
+    position: relative;
+    line-height: 52px;
+}
+
+.col {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.container {
+    width:55%;
+    text-align:center;
+}
+
+button {
+    margin: 1%;
+}
+
+#sub_class_list {
+    text-align: left;
+}
+
+.list-group-item {
+    border: solid;
+    border-color: white;
+    text-align: center;
+}
+
+#class_list .list-group-item {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    height: 70px;
+    text-decoration: none;
+}
+
+/* PAGE 404 */
+
+#page404 {
+    padding: 0;
+    margin: 0;
+}
+
+#notfound {
+    position: relative;
+    height: 100vh;
+    background-color: #222;
+}
+
+#notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.notfound {
+    max-width: 460px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.notfound .notfound-404 {
+    height: 158px;
+    line-height: 153px;
+}
+
+.notfound .notfound-404 h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 220px;
+    letter-spacing: 10px;
+    margin: 0px;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
+}
+
+.notfound .notfound-404 h1>span {
+    text-shadow: 2px 2px 0px #ffab00, -2px -2px 0px #ffab00, 0px 0px 8px #ff8700;
+}
+
+.notfound p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #c9c9c9;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.notfound a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    color: #c9c9c9;
+    border: 2px solid #c9c9c9;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 700;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.notfound a:hover {
+    color: #ffab00;
+    border-color: #ffab00;
+}
+
+@media only screen and (max-width: 1000px) {
+    .fps_text {
+        left: 10px;
+    }
+    
+    .row {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    #topics {
+        width: 65%;
+    }
+
+    .fps {
+        width: 25%;
+    }
+
+    #image_fps {
+        text-align: left;
+    }
+
+    .col_image {
+        left: 32%;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .row {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-height: 630px) {
+    .col {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    #load_last_image, #reset_image {
+        visibility: visible;
+    }
+
+    .row {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #topics {
+        width: 75%;
+    }
+
+    .fps_text {
+        left: 5px;
+    }
+
+    .fps {
+        width: 32%;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    #topics {
+        width: 90%;
+    }
+
+    .fps {
+        width: 34%;
+    }
+
+    .col_image {
+        left: 28%;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    #load_last_image, #reset_image {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .notfound .notfound-404 {
+        height: 122px;
+        line-height: 122px;
+    }
+
+    .notfound .notfound-404 h1 {
+        font-size: 122px;
+    }
+}
