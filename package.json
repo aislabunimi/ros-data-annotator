@@ -28,9 +28,9 @@
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aislabunimi/tesi.triennale.mangili"
+    "url": "https://github.com/aislabunimi/ros-data-annotator"
   },
-  "homepage": "https://github.com/aislabunimi/tesi.triennale.mangili#readme",
+  "homepage": "https://github.com/aislabunimi/ros-data-annotator#readme",
   "dependencies": {
     "dotenv": "^16.3.1",
     "dotenv-expand": "^10.0.0",
